@@ -266,6 +266,7 @@ iframe {
 
 .comingsoon img {
   height: 25em;
+  filter: blur(2px);
 }
 
 .comingsoon {
@@ -273,6 +274,7 @@ iframe {
   align-items: center;
   justify-content: end;
   flex-direction: column;
+  background: var(--red);
 }
 
 /* JOurnal */
@@ -432,6 +434,7 @@ main {
     color: var(--white);
   }
   .tunes {
+    height: 100svh;
     width: 100vw;
     background-color: var(--red);
     font-family: "interCustom";
