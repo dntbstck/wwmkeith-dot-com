@@ -91,6 +91,8 @@ body {
   background-color: var(--bg-col);
   color: var(--black);
   padding: auto;
+  pointer-events: visible;
+  user-select: none;
 }
 
 .hero-top {
@@ -430,7 +432,6 @@ main {
     color: var(--white);
   }
   .tunes {
-    height: 100svh;
     width: 100vw;
     background-color: var(--red);
     font-family: "interCustom";
